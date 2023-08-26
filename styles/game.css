@@ -81,6 +81,25 @@ line-height: normal;
 .section2-container,.section-content,title{
     display: flex;
 }
+.text4{
+    width: 342px;
+    height: 60px;
+    font-size: 1.25rem;
+}
+.text4(1){
+    width: 342px;
+    height: 60px;
+    font: 1em sans-serif;
+}
+.text4(2){
+    width: 342px;
+    height: 60px;
+    font: 1em sans-serif;
+
+}
+.images{
+    display: flex;
+}
 
 
 
