@@ -20,12 +20,13 @@
 
 }
 
+    
 
-.banner-title2,
-.main-image {
+.banner-section{
     display: flex;
-
 }
+
+
 
 
 .banner-title2 {
@@ -73,7 +74,8 @@
 }
 
 .title {
-    background: #F948B2 0%, #8758F1 100% text-align: right;
+    background: #F948B2 0%, #8758F1 100%; 
+    text-align: right;
     font-family: Work Sans;
     font-size: 48px;
     font-style: normal;
@@ -98,7 +100,7 @@
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 
-    Show 1 more color
+    
 }
 
 .section2-container {
@@ -133,7 +135,16 @@
 .image-container{
     position: relative;
 }
-.image-container,.section-title1,.section-title2{
-    display: flex;
- }
 
+ 
+ /* section 5 */
+ .btn-primary{
+    width: 195px;
+    height: 23px;
+    border: 1px solid skyblue;
+    border-radius: 48px;
+    background: #FFF;
+    padding: 21px 40px;
+    text-align: center;
+ }
+ 
