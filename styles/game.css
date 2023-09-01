@@ -19,12 +19,13 @@
     padding: 10px;
 
 }
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+}
 
     
 
-.banner-section{
-    display: flex;
-}
 
 
 
@@ -69,8 +70,12 @@
 
 
 
-.main-image2 {
+.main-image {
+   width: 600px;
+}
+.main-image-2-and-3{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .title {
@@ -148,3 +153,9 @@
     text-align: center;
  }
  
+.game-series-1{
+    display: flex;
+}
+.game-series-2{
+    display: flex;
+}
