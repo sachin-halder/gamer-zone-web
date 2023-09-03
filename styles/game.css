@@ -155,7 +155,41 @@
  
 .game-series-1{
     display: flex;
+    justify-content: center;
 }
 .game-series-2{
     display: flex;
+    justify-content: center;
 }
+/* section 7 */
+.footer-title{
+    display: flex;
+    justify-content: center;
+}
+.li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 60px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.policies ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 60px;
+}
+.footer{
+   text-align: center;
+}
+   /*responsiveness  */
+   
+    @media screen and(max-width: 576px) {
+     .banner-section{
+        left: 200px;
+     }   
+    }
+
